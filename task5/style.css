@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(to bottom right, #c9ffee, #f59aff); 
+  overflow: hidden; 
+}
+
+p {
+  margin-top: 100px;
+  margin-left: 50px;
+  font: normal small-caps bold 22px/1.5 Arial, sans-serif;
+  color: #126148;
+}
+
+#duplicateField {
+  height: 70px;
+}
+
+#textInput {
+  height: 34px;
+  width: 350px;
+  border-radius: 10px;
+  font: normal small-caps bold 14px Arial, sans-serif;
+}
+
+#textInput::placeholder {
+  font: normal small-caps normal 14px Arial, sans-serif;
+}
+
+label {
+  font: normal small-caps bold 22px Arial, sans-serif;
+  color: #126148;
+}
+
+form {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+hr {
+  display: block; 
+  height: 1px;
+  border: 0; 
+  border-top: 2px solid #eb58fc;
+  margin-top: 50px; 
+  padding: 0;
+  
+}
+
+a {
+  display: block;
+  margin-top: 100px;
+  margin-left: 100px;
+  font: italic small-caps bold 22px/1.5 Arial, sans-serif;
+  text-decoration: none;
+  color: #126148; 
+}
+
+a:hover {
+  color: #b566e7; 
+}
+
+a:visited {
+  color: #7f078c; 
+}
+
+  #button {
+    display: inline-block;
+    padding: 10px 10px;
+    font: normal small-caps bold 14px Arial, sans-serif;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #126148;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px #999;
+  }
+  
+  #button:hover {
+    background-color: #f59aff;
+  
+  }
+  
+  #button:active {
+    background-color: #000000;
+    color: white;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }

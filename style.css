@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;    
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(to bottom right, #c9ffee, #f59aff);
+    overflow: hidden;
+}  
+
+
+ul {
+
+    margin-top: 100px;
+    margin-left: 250px;
+}
+
+li {       
+    margin: 2em auto 1em;
+}
+
+a {
+    
+    font: italic small-caps bold 22px/1.5 Arial, sans-serif;
+    text-decoration: none;
+    color: #126148; 
+}
+
+a:hover {
+    color: #b566e7; 
+}
+
+a:visited {
+    color: #7f078c; 
+}
