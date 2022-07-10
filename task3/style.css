@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 html, body {
   height: 100%;
 }
@@ -23,7 +24,7 @@ body {
 
 
 #arrowIcon {
-  position: flex;
+  display: flex;
   flex-direction: column;
   width: 100px;
   height: 300px; 
@@ -36,7 +37,7 @@ body {
   height: 100px;
 }
 
-#text {
+#text1, #text2 {
  
   box-sizing: border-box;  
   padding-top: 50px;
