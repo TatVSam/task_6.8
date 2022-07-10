@@ -1,14 +1,14 @@
-const newForm = document.querySelector('input');
+const textForm = document.querySelector('input');
 const newParagraph = document.querySelector('#duplicateField');
-const newButton = document.querySelector('button');
+const clearButton = document.querySelector('button');
 
-newForm.addEventListener('keydown', function (event) {
+textForm.addEventListener('keyup', function(event) {
     newParagraph.textContent = this.value;
 })
 
-newButton.addEventListener('click', function (event) {
+clearButton.addEventListener('click', function(event) {
   event.preventDefault();
-  console.log(newForm.value);
-  newForm.value = '';
+  console.log(textForm.value);
+  textForm.value = '';
   newParagraph.textContent = '';
 })

@@ -40,10 +40,10 @@ body {
  
   box-sizing: border-box;  
   padding-top: 50px;
-   width: 100px;
+  width: 100px;
   height: 100px;
   font: normal small-caps bold 16px Arial, sans-serif;
-    color: #126148;
+  color: #126148;
 }
 
 #arrow:hover {
@@ -80,7 +80,7 @@ body {
     background: black;
   }
 
-  a {
+a {
     display: block;
     margin-top: 100px;
     margin-left: 100px;

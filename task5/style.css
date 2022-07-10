@@ -21,17 +21,18 @@ p {
 
 #duplicateField {
   height: 70px;
+  font: normal bold 22px/1.5 Arial, sans-serif;
 }
 
 #textInput {
   height: 34px;
   width: 350px;
   border-radius: 10px;
-  font: normal small-caps bold 14px Arial, sans-serif;
+  font: normal bold 14px Arial, sans-serif;
 }
 
 #textInput::placeholder {
-  font: normal small-caps normal 14px Arial, sans-serif;
+  font: normal normal 14px Arial, sans-serif;
 }
 
 label {
