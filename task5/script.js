@@ -2,7 +2,7 @@ const textForm = document.querySelector('input');
 const newParagraph = document.querySelector('#duplicateField');
 const clearButton = document.querySelector('button');
 
-textForm.addEventListener('keyup', function(event) {
+textForm.addEventListener('input', function(event) {
     newParagraph.textContent = this.value;
 })
 
